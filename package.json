@@ -1,6 +1,6 @@
 {
   "name": "readable-stream-miniprogram",
-  "version": "0.1.5",
+  "version": "0.1.11",
   "description": "Streams3, a user-land copy of the stream library from Node.js",
   "main": "readable.js",
   "engines": {
