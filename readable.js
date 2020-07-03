@@ -2,7 +2,7 @@ if (typeof wx != 'object') {
   var Stream = require('stream');
 }
 
-if (false && typeof wx != 'object' && process.env.READABLE_STREAM === 'disable' && Stream) {
+if (typeof wx != 'object' && process.env.READABLE_STREAM === 'disable' && Stream) {
   var Stream = require('stream');
   module.exports = Stream.Readable;
   Object.assign(module.exports, Stream);
